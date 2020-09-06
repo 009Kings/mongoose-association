@@ -8,6 +8,7 @@ let countrySchema = new mongoose.Schema({
     minlength: 2,
     maxlength:100
   },
+  shortName: String,
   phoneCode: Number,
   population: Number,
   continent: String,
